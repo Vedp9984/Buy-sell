@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #007bff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a, nav ul li button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav ul li a img, nav ul li button img {
+  width: 24px;
+  height: 24px;
+}
+
+nav ul li a:hover, nav ul li button:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: #fff;
+}
+
+form input {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+form button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.5em;
+  width: 100%;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+}
+
+.home .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home .buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.home .buttons button:hover {
+  background-color: #0056b3;
+}
+
+.search-items {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-items input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-items label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.search-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-items ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-items ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.search-items ul li a:hover {
+  text-decoration: underline;
+}

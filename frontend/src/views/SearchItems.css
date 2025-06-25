@@ -1,0 +1,133 @@
+/* Container styles */
+.search-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Search input styles */
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 2px solid #e1e1e1;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.2);
+}
+
+/* Category filters container */
+.categories-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+/* Category checkbox label styles */
+.category-label {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-label:hover {
+  background-color: #e8e8e8;
+}
+
+/* Custom checkbox styles */
+.category-checkbox {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.category-checkbox:checked {
+  background-color: #4a90e2;
+}
+
+.category-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Items list styles */
+.items-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Item link styles */
+.item-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.item-link:hover {
+  color: #4a90e2;
+}
+
+/* Price and vendor styles */
+.item-price {
+  font-weight: bold;
+  color: #2ecc71;
+  margin: 0 1rem;
+}
+
+.item-vendor {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* Page title styles */
+.page-title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-weight: 600;
+}
